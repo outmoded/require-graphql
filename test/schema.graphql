@@ -1,0 +1,16 @@
+type Address {
+    country: String!
+    region: String
+    city: String!
+    code: String!
+    street: String
+}
+
+type Place {
+    name: String!
+    address: Address
+}
+
+type Query {
+    place(name: String!): Place
+}

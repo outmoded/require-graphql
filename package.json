@@ -1,0 +1,27 @@
+{
+  "name": "require-graphql",
+  "description": " GraphQL schema file support for require()",
+  "version": "1.0.0",
+  "author": "Eran Hammer <eran@hammer.io> (http://hueniverse.com)",
+  "repository": "git://github.com/hueniverse/require-graphql",
+  "main": "lib/index.js",
+  "keywords": [
+    "graphql",
+    "require"
+  ],
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "code": "5.x.x",
+    "graphql": "0.11.x",
+    "lab": "15.x.x"
+  },
+  "scripts": {
+    "test": "lab -a code -t 100 -L",
+    "test-cov-html": "lab -a code -r html -o coverage.html"
+  },
+  "license": "BSD-3-Clause"
+}
